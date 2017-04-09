@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EmptyActivity</string>
+    <string name="application_log">Application log</string>
+    <string name="first_activity_name">First Activity</string>
+    <string name="second_activity_name">Second Activity</string>
+    <string name="third_activity_name">Third Activity</string>
+    <string name="fourth_activity_name">Fourth Activity</string>
+    <string name="new_instance">New instance</string>
+    <string name="set_log_name_here">Set log name here</string>
+    <string name="set_action_name_here">Set action name here</string>
+    <string name="this_activity_log">This activity log</string>
+    <string name="this_list_log">This list log</string>
+    <string name="this_button_log">This button log</string>
+    <string name="parent_activity_log">Parent activity log</string>
+    <string name="parent_view_group_log">Parent\'s list log</string>
+    <string name="parent_view_log">Parent\'s button log</string>
+</resources>
