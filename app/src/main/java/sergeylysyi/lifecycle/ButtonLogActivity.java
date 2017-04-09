@@ -36,12 +36,6 @@ public class ButtonLogActivity extends AppCompatActivity {
         });
 
         Button newInstanceButton = (Button) findViewById(R.id.button);
-        newInstanceButton.setVisibility(View.INVISIBLE);
-        newInstanceButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                logger.i(TAG, "Button pressed");
-            }
-        });
+        newInstanceButton.setVisibility(View.GONE);
     }
 }

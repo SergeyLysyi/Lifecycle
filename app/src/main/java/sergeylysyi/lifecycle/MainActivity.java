@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         logger.i(TAG, "onCreate called");
 
-        Button actionButton = (Button) findViewById(R.id.button);
-        actionButton.setText(R.string.this_activity_log);
-        actionButton.setOnClickListener(new View.OnClickListener() {
+        Button newInstanceButton = (Button) findViewById(R.id.button);
+        newInstanceButton.setText(R.string.this_activity_log);
+        newInstanceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 logger.i(TAG, "Button pressed");
