@@ -29,67 +29,68 @@ public class MyListView extends ListView {
 
     @Override
     public void onViewAdded(View child) {
-        logger.i(TAG, "onViewAdded called");
         super.onViewAdded(child);
+        logger.i(TAG, "onViewAdded called");
     }
 
     @Override
     public void onViewRemoved(View child) {
-        logger.i(TAG, "onViewRemoved called");
         super.onViewRemoved(child);
+        logger.i(TAG, "onViewRemoved called");
     }
 
     @Override
     protected void onFinishInflate() {
-        logger.i(TAG, "onFinishInflate called");
         super.onFinishInflate();
+        logger.i(TAG, "onFinishInflate called");
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        logger.i(TAG, "onMeasure called");
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        logger.i(TAG, "onMeasure called");
     }
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
-        logger.i(TAG, "onLayout called");
         super.onLayout(changed, l, t, r, b);
+        logger.i(TAG, "onLayout called");
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
+        boolean result = super.onTouchEvent(ev);
         logger.i(TAG, "onTouchEvent called");
-        return super.onTouchEvent(ev);
+        return result;
     }
 
     @Override
     protected void onFocusChanged(boolean gainFocus, int direction, Rect previouslyFocusedRect) {
-        logger.i(TAG, "onFocusChanged called");
         super.onFocusChanged(gainFocus, direction, previouslyFocusedRect);
+        logger.i(TAG, "onFocusChanged called");
     }
 
     @Override
     protected void onAttachedToWindow() {
-        logger.i(TAG, "onAttachedToWindow called");
         super.onAttachedToWindow();
+        logger.i(TAG, "onAttachedToWindow called");
     }
 
     @Override
     protected void onDetachedFromWindow() {
-        logger.i(TAG, "onDetachedFromWindow called");
         super.onDetachedFromWindow();
+        logger.i(TAG, "onDetachedFromWindow called");
     }
 
     @Override
     protected void onWindowVisibilityChanged(int visibility) {
-        logger.i(TAG, "onWindowVisibilityChanged called");
         super.onWindowVisibilityChanged(visibility);
+        logger.i(TAG, "onWindowVisibilityChanged called");
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
-        logger.i(TAG, "onDraw called");
         super.onDraw(canvas);
+        logger.i(TAG, "onDraw called");
     }
 }

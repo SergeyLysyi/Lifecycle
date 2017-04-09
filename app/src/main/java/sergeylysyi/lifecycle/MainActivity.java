@@ -73,31 +73,31 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onRestart() {
-        logger.i(TAG, "onRestart called");
         super.onRestart();
+        logger.i(TAG, "onRestart called");
     }
 
     @Override
     protected void onResume() {
-        logger.i(TAG, "onResume called");
         super.onResume();
+        logger.i(TAG, "onResume called");
     }
 
     @Override
     protected void onPause() {
-        logger.i(TAG, "onPause called");
         super.onPause();
+        logger.i(TAG, "onPause called");
     }
 
     @Override
     protected void onStop() {
-        logger.i(TAG, "onStop called");
         super.onStop();
+        logger.i(TAG, "onStop called");
     }
 
     @Override
     protected void onDestroy() {
-        logger.i(TAG, "onDestroy called");
         super.onDestroy();
+        logger.i(TAG, "onDestroy called");
     }
 }
