@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EmptyActivity</string>
+    <string name="app_name">Lifecycle</string>
     <string name="application_log">Application log</string>
     <string name="first_activity_name">First Activity</string>
     <string name="second_activity_name">Second Activity</string>
