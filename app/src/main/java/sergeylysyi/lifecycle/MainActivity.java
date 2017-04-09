@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        logger.i(TAG, "onCreate called");
+
         Button actionButton = (Button) findViewById(R.id.button);
         actionButton.setText(R.string.this_activity_log);
         actionButton.setOnClickListener(new View.OnClickListener() {
@@ -63,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         logger.i(TAG, "onSaveInstanceState called");
     }
-
 
     protected void onStart() {
         super.onStart();
@@ -99,6 +100,4 @@ public class MainActivity extends AppCompatActivity {
         logger.i(TAG, "onDestroy called");
         super.onDestroy();
     }
-
-
 }

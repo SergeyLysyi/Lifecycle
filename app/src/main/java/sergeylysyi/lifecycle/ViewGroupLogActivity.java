@@ -36,6 +36,8 @@ public class ViewGroupLogActivity extends AppCompatActivity {
             }
         });
 
+        logger.i(TAG, "onCreate called");
+
         Button newInstanceButton = (Button) findViewById(R.id.button);
         newInstanceButton.setText(R.string.this_button_log);
         newInstanceButton.setOnClickListener(new View.OnClickListener() {
@@ -99,6 +101,4 @@ public class ViewGroupLogActivity extends AppCompatActivity {
         logger.i(TAG, "onDestroy called");
         super.onDestroy();
     }
-
-
 }

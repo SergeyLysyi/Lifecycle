@@ -35,6 +35,8 @@ public class ButtonLogActivity extends AppCompatActivity {
             }
         });
 
+        logger.i(TAG, "onCreate called");
+
         Button newInstanceButton = (Button) findViewById(R.id.button);
         newInstanceButton.setVisibility(View.INVISIBLE);
         newInstanceButton.setOnClickListener(new View.OnClickListener() {
@@ -56,7 +58,6 @@ public class ButtonLogActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         logger.i(TAG, "onSaveInstanceState called");
     }
-
 
     protected void onStart() {
         super.onStart();
@@ -92,6 +93,4 @@ public class ButtonLogActivity extends AppCompatActivity {
         logger.i(TAG, "onDestroy called");
         super.onDestroy();
     }
-
-
 }
